@@ -4,7 +4,7 @@ import { getClients } from '../../../support/Client/client';
 import { login } from '../../../support/Auth/auth';
 
 
-describe('Client API Tests', () => {
+describe('Client API Tests - HealthCheck', () => {
     let authToken: string | null;
     beforeEach(() => {
         const adminUserName = Cypress.env('adminUserName');

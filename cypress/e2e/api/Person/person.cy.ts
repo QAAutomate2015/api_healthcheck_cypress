@@ -4,7 +4,7 @@ import { getPersonIdentity } from '../../../support/Person/person';
 import { login } from '../../../support/Auth/auth';
 
 
-describe('Person Identity API Tests', () => {
+describe('Person Identity API Tests - HealthChec', () => {
     let authToken: string | null;
     beforeEach(() => {
         const adminUserName = Cypress.env('adminUserName');
