@@ -1,0 +1,13 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore Cypress generated files
+cypress/screenshots/
+cypress/videos/
+
+# Ignore environment-specific files
+cypress.development.json
+employee.json
+cypress.config.ts
+
+# Ignore any other build artifacts or sensitive information
